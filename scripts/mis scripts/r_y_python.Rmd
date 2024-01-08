@@ -1,0 +1,22 @@
+---
+title: "r y python"
+author: "fds"
+date: '2022-05-26'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+
+```{r}
+library(reticulate)
+use_python("/Users/fds/anaconda3/python.exe") #nos aseguramos que use una version de python determinada
+
+#py_install("nombre_del_paquete_a_instalar")
+
+os <- import("os")
+os$listdir(".")
+```

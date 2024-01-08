@@ -1,0 +1,22 @@
+---
+title: "iris"
+author: "fds"
+date: '2022-06-06'
+output: 
+  html_document:
+    df_print: paged
+---
+
+# data frame de iris
+
+```{r}
+df = iris
+head(df,5)
+tail(df,5)
+str(df)
+names(df)
+nrow(df)
+ncol(df)
+
+```
+

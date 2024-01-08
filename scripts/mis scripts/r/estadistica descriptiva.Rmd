@@ -1,0 +1,24 @@
+---
+title: "Estadistica descriptiva"
+author: "fds"
+date: '2022-06-07'
+output: html_document
+---
+
+## Estadistica descriptiva
+
+## Trabajo con valores culitativos
+
+# genera un vector de 12 elementos entre 1 y 5 de forma aleatoria
+x=sample(1:5, size=12, replace = TRUE)
+x
+
+
+resultados=factor(sample(c("SI","NO"), size=12, replace=TRUE))
+resultados
+
+
+#con table obtenemos la tabla de frecuencias obsolutas de un vector
+table(x)[1]
+
+table(resultados)

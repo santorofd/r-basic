@@ -1,0 +1,34 @@
+---
+title: "estadistica descriptiva"
+author: "fds"
+date: '2022-06-07'
+output: html_document
+---
+
+# Estadistica Descriptiva
+
+## Frecuencia absoluta
+
+```{r}
+x=sample(1:5, size=12, replace=TRUE)
+x
+#tabla de frecuencias
+table(x)
+#suma de elementos de la tabla
+sum(table(x))
+
+names(which(table(x)==max(table(x))))
+```
+
+
+## Frecuencia relativa
+
+```{r}
+resultados=factor(sample(c("SI","NO"),size=12,replace=TRUE))
+table(resultados)
+
+names(which(table(resultados)==max(table(resultados))))
+
+prop.table(table(resultados))
+```
+

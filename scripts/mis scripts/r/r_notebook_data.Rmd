@@ -1,0 +1,18 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+---
+
+
+```{r}
+bulls = read.table("../../../data/bulls.dat", 
+                   header = FALSE,
+                   col.names = c("breed","price","shoulder","fat_free",
+                             "percent_ff","frame_scale","back_fat",
+                             "sale_height","sale_weight"))
+head(bulls)
+str(bulls)
+```
+
