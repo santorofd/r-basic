@@ -2,3 +2,9 @@ hola fds, probando git con r studio
 
 
 https://www.youtube.com/watch?v=BAN4ErGF5ro
+
+agregamos mas informacion:
+
+hay que instalar previamente el paquete usethis en r con el comando
+
+install.packages("usethis") desde la consola
