@@ -1,1 +1,4 @@
-hola fds
+hola fds, probando git con r studio
+
+
+https://www.youtube.com/watch?v=BAN4ErGF5ro
