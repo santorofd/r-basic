@@ -7,4 +7,4 @@ agregamos mas informacion:
 
 hay que instalar previamente el paquete usethis en r con el comando
 
-install.packages("usethis") desde la consola
+install.packages("usethis") desde la consola.
